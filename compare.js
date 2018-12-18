@@ -31,6 +31,11 @@
 
             topLeft = [Infinity, Infinity];
             bottomRight = [0,0];
+
+            console.log(temp1Canvas);
+            console.log(temp2Canvas);
+            console.log(topLeft);
+            console.log(bottomRight);
         }
 
         //Compares Two Images
