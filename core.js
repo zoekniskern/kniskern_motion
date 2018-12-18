@@ -24,7 +24,10 @@
 
 		var rendering = false;
 
-		var width = 64;
+		// var width = window.innerWidth/2;
+        // var height = window.innerHeight;
+        
+        var width = 64;
 		var height = 48;
 
 		var webCam = null;
