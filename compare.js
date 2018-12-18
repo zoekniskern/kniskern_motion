@@ -15,6 +15,8 @@
 
         //Initialize
         function initialize(){
+
+            console.log('initialize compare ran');
             sensitivity = 40;
 
             if(!temp1Canvas) {
@@ -34,6 +36,8 @@
         //Compares Two Images
         function compare(image1, image2, width, height) {
             initialize();
+
+            console.log('compare ran');
 
             if(!image1 || !image2) {
                 return;

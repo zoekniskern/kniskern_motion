@@ -51,6 +51,8 @@
 
         //Capture Image Still
         function captureImage(append) {
+
+            console.log('capture image ran');
             var canvas = document.createElement('canvas');
             canvas.width = width;
             canvas.height = height;

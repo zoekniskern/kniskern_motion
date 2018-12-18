@@ -32,6 +32,7 @@
 
         //Initialize Object
         function initialize() {
+            console.log('core initialize ran');
             imageCompare = new App.Compare();
             webCam = new App.Webcam(document.getElementById('webCamWindow'));
 
@@ -47,6 +48,7 @@
 
             if(!oldImage || !currentImage) {
                 return;
+                console.log("old image and current image exception");
             }
 
             var vals = imageCompare.compare(currentImage, oldImage, width, height);
@@ -69,6 +71,7 @@
 
         //Main Render Loop
         function main() {
+            console.log('main core render loop ran');
             try{
                 render();
             } catch(e) {
