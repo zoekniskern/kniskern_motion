@@ -43,6 +43,7 @@
 
         //Compares Images and Updates Position of Motion Div
         function render() {
+            console.log('inside render function');
             oldImage = currentImage;
             currentImage = webCam.captureImage(false);
 
@@ -73,6 +74,7 @@
         function main() {
             console.log('main core render loop ran');
             try{
+                console.log("tried render?");
                 render();
             } catch(e) {
                 console.log(e);
