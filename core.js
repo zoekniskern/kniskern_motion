@@ -53,6 +53,7 @@
             }
 
             var vals = imageCompare.compare(currentImage, oldImage, width, height);
+            console.log(vals);
 
             topLeft[0] = vals.topLeft[0] * 10;
             topLeft[1] = vals.topLeft[1] * 10;

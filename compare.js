@@ -77,6 +77,7 @@
 
         //Compare Individual Pixel, based on sensitivity
         function comparePixel(p1, p2) {
+            console.log('compare pixels ran');
             var matches = true;
 
             for(var i = 0; i < p1.length; i++) {
