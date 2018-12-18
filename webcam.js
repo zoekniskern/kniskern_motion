@@ -38,10 +38,10 @@
                         var vendorURL = window.URL || window.webkitURL;
 
                         if(navigator.mozGetUserMedia) {
-                            webCamWindow.mozSrcObject = stream;
+                            webCamWindow.mozSrcObject = localMediaStream;
 							webCamWindow.play();
                         } else {
-                            webCamWindow.srcObject = stream;
+                            webCamWindow.srcObject = localMediaStream;
                         }
                     }
                 },
