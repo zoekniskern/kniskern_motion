@@ -35,6 +35,7 @@
             console.log('core initialize ran');
             imageCompare = new App.Compare();
             webCam = new App.Webcam(document.getElementById('webCamWindow'));
+            currentImage = webCam.captureImage(false);
 
             rendering = true;
 
