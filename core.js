@@ -48,8 +48,8 @@
             currentImage = webCam.captureImage(false);
 
             if(!oldImage || !currentImage) {
-                return;
                 console.log("old image and current image exception");
+                return;
             }
 
             var vals = imageCompare.compare(currentImage, oldImage, width, height);
