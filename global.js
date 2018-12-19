@@ -12,18 +12,19 @@ function getDivMeasure() {
 
     let div = document.querySelector('#movement');
 
-    divX = div.style.top;
-    divY = div.style.left;
+    divX = parseFloat(div.style.top);
+    divY = parseFloat(div.style.left);
 
-    divWid = div.style.width;
-    divHei = div.style.height;
+    divWid = parseFloat(div.style.width);
+    divHei = parseFloat(div.style.height);
 
     // console.log(divX);
     // console.log(divY);
     // console.log(divWid);
     // console.log(divHei);
+    // console.log('');
 
     requestAnimationFrame(getDivMeasure);
 }
 
-requestAnimationFrame(getDivMeasure);
+// requestAnimationFrame(getDivMeasure);

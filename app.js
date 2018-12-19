@@ -145,6 +145,13 @@ function draw(t) {
     gl.uniform1f(programInfo.wid, divWid);
     gl.uniform1f(programInfo.hei, divHei);
 
+
+    // console.log(divX);
+    // console.log(divY);
+    // console.log(divWid);
+    // console.log(divHei);
+    // console.log('');
+
     // Use TRIANGLE_STRIP: first three vertices establish the first triangle,
     // every point after that uses the last two vertices with the new one
     // to make the next triangle

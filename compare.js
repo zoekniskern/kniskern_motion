@@ -34,6 +34,8 @@
 
 			topLeft = [Infinity,Infinity];
 			bottomRight = [0,0];
+
+			// requestAnimationFrame(getDivMeasure);
 		}
 
 		/*
